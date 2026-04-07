@@ -5,9 +5,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  working_directory: ./app
 
 jobs:
-  working_directory: "/app"
   build-deploy:
     runs-on: ubuntu-latest
 
