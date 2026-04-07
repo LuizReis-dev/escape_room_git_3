@@ -5,7 +5,7 @@ on:
     branches:
       - main
   workflow_dispatch:
-  working_directory: ./app
+  working-directory: ./app
 
 jobs:
   build-deploy:
