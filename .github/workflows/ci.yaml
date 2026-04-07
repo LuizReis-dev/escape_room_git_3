@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  working_directory: /app
+  working_directory: "/app"
   build-deploy:
     runs-on: ubuntu-latest
 
